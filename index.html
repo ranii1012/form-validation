@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Client Side Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Register</h2>
+
+    <!-- novalidate disables HTML default validation -->
+    <form id="registerForm" novalidate>
+
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Full Name">
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email Address">
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <input type="password" id="password" placeholder="Password">
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <small class="error"></small>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
