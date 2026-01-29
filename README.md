@@ -1,10 +1,11 @@
 # Client-Side Form Validation
 
+## Live at
+https://ranii1012.github.io/form-validation/
+
 ## About the Project
 
 This project is a simple **registration form with client-side validation** using **HTML, CSS, and JavaScript**. All validations are handled using JavaScript to give better control and user-friendly error messages.
-
----
 
 ## Features
 
@@ -21,15 +22,11 @@ This project is a simple **registration form with client-side validation** using
 * Real-time validation while typing
 * Error and success styles using CSS
 
----
-
 ## Technologies Used
 
 * HTML
 * CSS
 * JavaScript
-
----
 
 ## Author
 
